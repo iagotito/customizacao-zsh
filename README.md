@@ -75,8 +75,13 @@ Diretório do plugin
 
 Aqui foi utilizado apenas 1 plugin (zsh-syntax-highlighting), mas
 existem outros. Recomendo que procure por aí para ver se acha algo que
-lhe agrade. O perfil [zsh-users](https://github.com/zsh-users) no
-GitHub tem algumas coisas bem legais.
+lhe agrade.
+
+O perfil [zsh-users](https://github.com/zsh-users) no GitHub tem
+algumas coisas bem legais.  
+O [Awesome Zsh
+Plugins](https://project-awesome.org/unixorn/awesome-zsh-plugins)
+também tem vários plugins para o Zsh.
 
 ### aliases
 
@@ -84,3 +89,31 @@ Arquivo com os aliases.
 
 Existem inúmeras outras ideias legais e úteis de aliases pra se
 utilizar, dê uma procurada depois. ;)
+
+## Links adicionais
+
+Páginas citadas:
+- [Zsh Prompt
+  Expandion](https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html)
+- [Oh My Zsh](https://ohmyz.sh/)
+
+Leituras adicionais:
+- [Configuring Zsh Without
+  Dependencies](https://thevaluable.dev/zsh-install-configure-mouseless/):
+  Neste texto é explicado basicamente tudo que foi apresentado. É uma
+  boa porta de entrada para aprender sobre o Zsh.
+- [Zsh Startup Files](https://zsh.sourceforge.io/Intro/intro_3.html)
+- [Documentação do Zsh](https://zsh.sourceforge.io/Doc/Release/)
+
+Para mais plugins, dê uma olhada em:
+- [zsh-users](https://github.com/zsh-users)
+- [Awesome Zsh
+  Plugins](https://project-awesome.org/unixorn/awesome-zsh-plugins)
+
+Sobre o Tmux:
+- [What's tmux and How to Configure It: a Detailed
+  Guide](https://thevaluable.dev/tmux-config-mouseless/)
+
+[Minhas configurações](https://github.com/iagotito/dotfiles) (caso
+tenha interesse, eu faço algumas coisas diferentes do que mostrei, mas
+creio que dá pra entender com base no que eu ensinei).
