@@ -1,0 +1,74 @@
+# the BEST alias ever
+alias please='sudo'
+
+# basic navigation aliases
+alias clr='clear'
+alias cls='clear; ls'
+alias uz='unzip'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias tree='tree -C' # add colorization to tree
+
+# list dirs first and colored
+alias ls='ls -h --color=auto --group-directories-first'
+alias la='ls -ah --color=auto --group-directories-first'
+alias ll='ls -lah --color=auto --group-directories-first'
+
+# highlight grep match
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# editing and reliading
+alias ze='vim $ZDOTDIR/.zshrc'        # zshrc edit
+alias zr='source $ZDOTDIR/.zshrc'     # zshrc reload
+alias ae='vim $ZDOTDIR/aliases'      # aliases edit
+alias ar='source $ZDOTDIR/aliases'   # aliases reload
+
+# git aliases
+
+alias gs='git status'
+alias ga='git add -A'
+alias gap='git add -p'
+alias gm='git merge'
+alias gl='git log --graph --oneline --branches -15'
+alias glv='git log' # suposed to mean "git log verbose"
+alias gc='git commit -v'
+alias gb='git branch'
+alias gck='git checkout'
+alias gckb='git checkout -b'
+alias gpl='git pull'
+alias gp='git push -u origin HEAD'
+alias gr='git reset'
+alias grh='git reset --hard'
+alias gcl='git clean'
+alias gcln='git clean -n'
+alias gd='git diff'
+
+# tmux
+
+alias t='tmux'
+alias ta='tmux attach-session -t'
+alias tl='tmux list-sessions'
+alias tkill='tmux kill-server'
+
+# python aliases
+
+alias python=python3
+alias pip=pip3
+alias p='python'
+alias v='python -m venv venv'
+alias a='source venv/bin/activate'
+alias d='deactivate'
+alias r='pip install -r requirements.txt'
+alias tr='pip install -r tests-requirements.txt'
+alias pp='python -m pytest -v'
+alias var='v;a;r'
+alias vart='var;tr'
+
+# random
+alias ip='curl ipinfo.io/ip'
+alias dropbox='~/.dropbox-dist/dropboxd'
