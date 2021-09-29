@@ -5,7 +5,7 @@
 # Aqui o diretório é adicionado ao fpath e é feio um autoload do arquivo
 # (pense nisso tudo como um import)
 fpath=($ZDOTDIR/prompt $fpath)
-autoload -Uz prompt_setup; prompt_setup
+autoload -Uz prompt.zsh; prompt.zsh
 
 # aliases
 source $HOME/aliases
