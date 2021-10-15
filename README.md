@@ -15,17 +15,17 @@ git clone --recurse-submodules https://github.com/iagotito/customizacao-zsh
 cd customziacao-zsh
 ```
 
-Mova os arquivos `.zshenv` e `aliases` para a sua home:
+Copie os arquivos `.zshenv` e `aliases` para a sua home:
 
 ```bash
-mv .zshenv ~/.zshenv
-mv aliases ~/aliases
+cp .zshenv ~/.zshenv
+cp aliases ~/aliases
 ```
 
-Mova o diretório `zsh/` para o diretório `~/.config`:
+Copie o diretório `zsh/` para o diretório `~/.config`:
 
 ```bash
-mv zsh ~/.config/zsh
+cp -r zsh ~/.config/zsh
 ```
 
 Reinicie o zsh (feche e abra o terminal).
