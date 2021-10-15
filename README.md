@@ -1,8 +1,9 @@
 # Customização do shell com o Zsh
 
 Repositório com os códigos e arquivos utilizados na apresentação
-[Customizando o terminal com o Zsh](), para o evento [Hacktoberfest
-Home Edition 2.0]() realizado pelo
+[Customizando o terminal com o Zsh](https://youtu.be/7p4uzb-tiRQ),
+para o evento [Hacktoberfest Home Edition
+2.0](https://opendevufcg.org/hacktoberfest/) realizado pelo
 [OpenDevUFCG](https://opendevufcg.org/) no ano de 2021.
 
 ## Como utilizar
